@@ -1,0 +1,14 @@
+<div class="fl w-100 w-50-ns">
+  <ul class="list measure center">
+    {{#each model as |item|}}
+      {{#link-to 'items.item' item.id}}
+        {{items-element item=item}}
+      {{/link-to}}
+      {{else}}
+        Sorry, nothing here.
+    {{/each}}
+  </ul>
+</div>
+<div class="fl w-100 w-50-ns">
+  {{outlet}}
+</div>

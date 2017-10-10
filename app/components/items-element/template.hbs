@@ -1,0 +1,13 @@
+{{#if item.imageUrl }}
+  <img class="w2 w3-ns" alt={{item.name}} src={{item.imageUrl}}>
+{{else}}
+  <img class="w2 h2 w3-ns h3-ns" alt={{item.name}} src="https://placehold.it/50x50.jpg/">
+{{/if}}
+
+<div class="pl3 flex-auto">
+  <span class="f6 db black-70">{{item.name}}</span>
+  <span class="f6 db black-70">{{item.category}}</span>
+</div>
+<div>
+  <span class="f6 db i black-70">{{moment-from-now item.since}}</span>
+</div>
