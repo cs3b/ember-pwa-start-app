@@ -12,7 +12,7 @@ module.exports = function(defaults) {
     },
     'esw-cache-fallback': {
       patterns: [ '/' ],
-      version: '20171010-4'
+      version: '20171010-7'
     }
   });
 
