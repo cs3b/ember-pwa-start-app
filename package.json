@@ -41,6 +41,7 @@
     "ember-service-worker-asset-cache": "^0.6.2",
     "ember-service-worker-cache-fallback": "^0.6.1",
     "ember-source": "~2.16.0",
+    "ember-web-app": "^2.2.0",
     "loader.js": "^4.2.3",
     "tachyons": "^4.8.1"
   },
